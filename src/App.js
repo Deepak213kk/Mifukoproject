@@ -12,10 +12,13 @@ import Trust from "./component/button/fair/mifukoTrust/Trust"
 import Profile from "./component/icons/profile/Profile";
 import Shopbasket from './component/shopbasket/Shopbasket';
 import Saboutus from './component/button/our story/Saboutus';
-import Footerbtn from './component/innercomponent/temp/Footerbtn';
+//import Footerbtn from './component/innercomponent/temp/Footerbtn';
 import ArtisanAfrica from './component/innercomponent/Artisan/ArtisanAfrica';
 import Bcorps from './component/button/fair/Bcorps';
-
+import Years15 from './component/innercomponent/15Years/Years15';
+//import Empowering from "./component/footer/Empowering/Empowering"
+import Footerbtn from './component/innercomponent/temp/Footerbtn';
+import Shipping from './component/footer/footer/shipping/Shipping';
 
 let allroute=createBrowserRouter(
   [
@@ -66,6 +69,14 @@ let allroute=createBrowserRouter(
     {
       path:'/Bcorps',
       element:<Bcorps />
+    },
+    {
+      path:'/yeras15',
+      element:<Years15 />
+    },
+    {
+      path:'/shipping',
+      element:<Shipping />
     },
     // {
     //   path:'/blog',
