@@ -1,5 +1,4 @@
-//import Readnow22 from '../src/component/footer/readnow'
-//import Footer from './component/footer/footer/Footer1';
+
 //import './App.css';
 import Home from './component/footer/home';
 import Story from "./component/Story/story";
@@ -12,13 +11,14 @@ import Trust from "./component/button/fair/mifukoTrust/Trust"
 import Profile from "./component/icons/profile/Profile";
 import Shopbasket from './component/shopbasket/Shopbasket';
 import Saboutus from './component/button/our story/Saboutus';
-//import Footerbtn from './component/innercomponent/temp/Footerbtn';
 import ArtisanAfrica from './component/innercomponent/Artisan/ArtisanAfrica';
 import Bcorps from './component/button/fair/Bcorps';
 import Years15 from './component/innercomponent/15Years/Years15';
-//import Empowering from "./component/footer/Empowering/Empowering"
 import Footerbtn from './component/innercomponent/temp/Footerbtn';
 import Shipping from './component/footer/footer/shipping/Shipping';
+import Readnow from './component/footer/footer/Readnow/Readnow';
+import Tfriends from './component/innercomponent/Tfriends';
+
 
 let allroute=createBrowserRouter(
   [
@@ -55,6 +55,10 @@ let allroute=createBrowserRouter(
       element:<Trust />
     },
     {
+      path:'/Twofrind',
+      element:<Tfriends />
+    },
+    {
       path:'/saboutus',
       element:<Saboutus />
     },
@@ -78,13 +82,10 @@ let allroute=createBrowserRouter(
       path:'/shipping',
       element:<Shipping />
     },
-    // {
-    //   path:'/blog',
-    //   element:<Blog />
-    // },
-
-    
-
+    {
+      path:'/Readnow',
+      element:<Readnow />
+    },
   ]
 );
 function App() {

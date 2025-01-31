@@ -6,7 +6,7 @@ import box1 from '../image2/trade2.png'
  function Shopbasket (){
   const [available, setAvailable] = useState(false)
   const [price, setPrice] = useState(false)
-  function Boxes() {
+  const Boxes=()=>{
     return (
       <>
     <div className='grid-item'>

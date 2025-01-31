@@ -1,5 +1,7 @@
 import React from 'react'
 import artisan from "../../footer/image/Readnow1.png"
+import { Link } from 'react-router-dom'
+import "./art.css"
 function Art() {
     return (
         <>
@@ -12,7 +14,7 @@ function Art() {
                         and read from their story how basket  weaving allow them to invest in their children,home and future
 
 
-                        <br /> <br /><br /><button> Read more</button>     </p>
+                        <br /> <br /><br /><button> <Link to={'/Artisanafrica'} style={{color:"inherit" , textDecoration:"none"}}>Read more</Link> </button>     </p>
 
                     </div>
                 </div>

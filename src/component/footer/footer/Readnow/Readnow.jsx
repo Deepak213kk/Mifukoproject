@@ -1,7 +1,7 @@
 import React from 'react'
 import readow2 from '../../image/Readnow2.png'
 import "./readnow.css"
-//import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const Readnow = () => {
   return (
     <>
@@ -13,9 +13,9 @@ const Readnow = () => {
             <p>
               The Mifuko story began in 2009, and This year we are celebrating our 15th aniversary.For 15 year we have been promoying Fair Trade,honouring traditional craft technique, and Empowering womern for a bright future
             </p>
-            <button>
-            Read How it all Started 
-            </button>
+            <button>    
+              <Link to={'/yeras15'} style={{color:'inherit', textDecoration:'none'}}>Read How it all Started</Link> 
+                    </button>
           </div>
     </div>
   

@@ -12,6 +12,7 @@ import Empowering from "./Empowering/Empowering"
 import Readnow from "./footer/Readnow/Readnow"
 import Seen from "./footer/Seen/Seen"
 import Sustain from "./footer/sustain/Sustain"
+import Tfriends from "../innercomponent/Tfriends"
 
 export default function Home() {
   return (
@@ -26,6 +27,9 @@ export default function Home() {
       </div>
       <div>
         <Art />
+      </div>
+      <div>
+        <Tfriends />
       </div>
       <div>
         <CapsuleCollection />

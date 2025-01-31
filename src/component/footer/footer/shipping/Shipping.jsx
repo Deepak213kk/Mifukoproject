@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./shipping.css"
 import shippingimg from "../../image/Shipping.png"
 import Haider from '../../../Haider'
+//import FallingText from '../../../innercomponent/temp/Footerbtn'
 function Shipping() {
     const [Vesible, setVesible] = useState(false)
     function togglediv(e) {
@@ -30,14 +31,16 @@ function Shipping() {
                                 SHIPPING
                             </h5>
                         </li>
-                        <li className='inHShippinglist' onClick={togglediv()} >
+                        <li className='inHShippinglist' onClick={togglediv} >
                             Where do you ship to?
                         </li>
                         {
                             Vesible === true ? <li className={`inHShippinglist `}>
-                                <p>
-                                    We offer global shipping worldwide. You can find the delivery times and rates from this page. The rates are also calculated automatically to your order in checkout.
-                                </p>
+                                <div>
+                                    <p>
+                                        We offer global shipping worldwide. You can find the delivery times and rates from this page. The rates are also calculated automatically to your order in checkout.
+                                    </p>
+                                </div>
                             </li>
                                 :
                                 ""
@@ -107,9 +110,7 @@ function Shipping() {
 
                 </div>
             </div>
-            <div>
-
-            </div>
+            
         </>
     )
 }

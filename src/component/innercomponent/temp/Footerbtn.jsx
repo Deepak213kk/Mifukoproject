@@ -1,23 +1,9 @@
-import React, { useState } from "react";
-import "./fbtn.css"; // Import the CSS styles
+import React from 'react'
 
-const App = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  const toggleDiv = () => {
-    setIsVisible(!isVisible);
-  };
-
+const Footerbtn = () => {
   return (
-    <div className="app">
-      <button onClick={toggleDiv} className="toggle-button">
-        {isVisible ? "Hide" : "Show"}
-      </button>
-      <div className={`sliding-div ${isVisible ? "visible" : ""}`}>
-        <p>This div slides from the bottom!</p>
-      </div>
-    </div>
-  );
-};
+    <div>Footerbtn</div>
+  )
+}
 
-export default App;
+export default Footerbtn

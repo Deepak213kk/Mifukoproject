@@ -18,3 +18,11 @@
     top: 17vh;
     margin-bottom: 30vh;
 }
+.readnowimg{
+    position: relative;
+}
+.readnow{
+    background-color: rgb(8, 127, 4);
+    position: absolute;
+    left: 13vh;
+}
